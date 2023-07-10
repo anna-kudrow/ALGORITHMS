@@ -107,47 +107,100 @@
 
                     //    ДЛЯ ЦИФР (0-9):
 
-int[] array = {0,2,3,2,1,5,9,1,1};
+// int[] array = {0,2,3,2,1,5,9,1,1};
 
-CountingSort(array);
+// int []sortedArray = CountingSort(array);
 
-System.Console.WriteLine(string.Join(", ", array));
+// // CountingSort(array);
 
-void CountingSort(int[] inputArray)
+// System.Console.WriteLine(string.Join(", ", sortedArray));
+
+// void CountingSort(int[] inputArray)
+// {
+//     int[] counters = new int[10];         // создаём второй массив для записи повторений цифр
+//     for (int i = 0; i < inputArray.Length; i++)
+//     {
+//          counters[inputArray[i]]++;       // считаем количество повторений цифр(превращаем элемент первого массива в индекс второго массива как бы и делаем в этом индексе +1)
+//     }
+
+//     int index = 0;
+//     for (int i = 0; i < counters.Length; i++)  //обход второго  массива повторений 
+//     {
+//         for (int j = 0; j < counters[i]; j++) // вложенный цикл для
+//         {
+//             inputArray[index] = i; // 
+//             index++;
+//         }
+//     }
+// }
+
+
+        //   СОРТИРОВКА ПОДСЧЁТОМ ДЛЯ ЧИСЕЛ (РАСШИРЕННЫЙ МЕТОД):
+
+// int[] array = {0,20,3,2,1,5,29,10,1};
+
+// int []sortedArray = CountingSortExtended(array);
+
+
+// int [] CountingSortExtended (int[] inputArray)
+// {
+//     int max = inputArray.Max();
+
+//     int[] counters = new int [max + 1];
+
+//     for (int i = 0; i < inputArray.Length; i++)
+//     {
+//         counters[inputArray[i]]++;
+//     }
+
+//     int index = 0;
+
+//     for (int i = 0; i < counters.Length; i++)
+//     {
+//         for (int j = 0; j < counters[i]; j++)
+//         {
+//             inputArray[index] = i;
+//             index++;
+//         }
+//     }
+
+//     return inputArray;
+// }
+
+
+//            СОРТИРОВКА ПОДСЧЁТОМ ДЛЯ МАССИВОВ С ОТРИЦАТЕЛЬНЫМИ ЧИСЛАМИ
+
+
+int[] array = {-10,-5,-9,0,2,5,1,3,1,0,1};
+int[] sortedArray = CountingSortExtended(array);
+System.Console.WriteLine(string.Join(", ", sortedArray));
+
+int [] CountingSortExtended (int [] array)
+
 {
-    int[] counters = new int[10];         // создаём второй массив для записи повторений цифр
-    for (int i = 0; i < inputArray.Length; i++)
+    int max = array.Max();
+    int min = array.Min();
+
+    int offset = -min;
+    int[] sortedArray = new int[array.Length];
+    int[] counters = new int[max + offset + 1];
+
+    for (int i = 0; i < array.Length; i++)
     {
-         counters[inputArray[i]]++;       // считаем количество повторений цифр(превращаем элемент первого массива в индекс второго массива как бы и делаем в этом индексе +1)
+        counters[array[i] + offset]++;
     }
 
     int index = 0;
-    for (int i = 0; i < counters.Length; i++)  //обход второго  массива повторений 
+    for (int i = 0; i < counters.Length; i++)
     {
-        for (int j = 0; j < counters[i]; j++) // вложенный цикл для
+        for (int j = 0; j < counters[i]; j++)
         {
-            inputArray[index] = i; // 
+            sortedArray[index] = i;
             index++;
         }
     }
+    return sortedArray;
 }
-
-
-        //   ДЛЯ ЧИСЕЛ (РАСШИРЕННЫЙ МЕТОД):
-
-void CountingSortExtended (int[] inputArray)
-{
-    int max = inputArray.Max();
-
-    int[] counters = new int [max + 1];
-
-    for (int i = 0; i < inputArray; i++)
-    {
-        co 
-    }
-}
-
-
 
 
 

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/annakudravceva/Desktop/GEEKBRAINS/Just_Code/Just_Code.csproj": {}
+    "/Users/annakudravceva/Desktop/GEEKBRAINS/ALGORITHMS/Just_Code.csproj": {}
   },
   "projects": {
-    "/Users/annakudravceva/Desktop/GEEKBRAINS/Just_Code/Just_Code.csproj": {
+    "/Users/annakudravceva/Desktop/GEEKBRAINS/ALGORITHMS/Just_Code.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/annakudravceva/Desktop/GEEKBRAINS/Just_Code/Just_Code.csproj",
+        "projectUniqueName": "/Users/annakudravceva/Desktop/GEEKBRAINS/ALGORITHMS/Just_Code.csproj",
         "projectName": "Just_Code",
-        "projectPath": "/Users/annakudravceva/Desktop/GEEKBRAINS/Just_Code/Just_Code.csproj",
+        "projectPath": "/Users/annakudravceva/Desktop/GEEKBRAINS/ALGORITHMS/Just_Code.csproj",
         "packagesPath": "/Users/annakudravceva/.nuget/packages/",
-        "outputPath": "/Users/annakudravceva/Desktop/GEEKBRAINS/Just_Code/obj/",
+        "outputPath": "/Users/annakudravceva/Desktop/GEEKBRAINS/ALGORITHMS/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/annakudravceva/.nuget/NuGet/NuGet.Config"
