@@ -1,0 +1,15 @@
+/Users/annakudravceva/Desktop/GEEKBRAINS/Just_Code/bin/Debug/net6.0/Just_Code
+/Users/annakudravceva/Desktop/GEEKBRAINS/Just_Code/bin/Debug/net6.0/Just_Code.deps.json
+/Users/annakudravceva/Desktop/GEEKBRAINS/Just_Code/bin/Debug/net6.0/Just_Code.runtimeconfig.json
+/Users/annakudravceva/Desktop/GEEKBRAINS/Just_Code/bin/Debug/net6.0/Just_Code.dll
+/Users/annakudravceva/Desktop/GEEKBRAINS/Just_Code/bin/Debug/net6.0/Just_Code.pdb
+/Users/annakudravceva/Desktop/GEEKBRAINS/Just_Code/obj/Debug/net6.0/Just_Code.csproj.AssemblyReference.cache
+/Users/annakudravceva/Desktop/GEEKBRAINS/Just_Code/obj/Debug/net6.0/Just_Code.GeneratedMSBuildEditorConfig.editorconfig
+/Users/annakudravceva/Desktop/GEEKBRAINS/Just_Code/obj/Debug/net6.0/Just_Code.AssemblyInfoInputs.cache
+/Users/annakudravceva/Desktop/GEEKBRAINS/Just_Code/obj/Debug/net6.0/Just_Code.AssemblyInfo.cs
+/Users/annakudravceva/Desktop/GEEKBRAINS/Just_Code/obj/Debug/net6.0/Just_Code.csproj.CoreCompileInputs.cache
+/Users/annakudravceva/Desktop/GEEKBRAINS/Just_Code/obj/Debug/net6.0/Just_Code.dll
+/Users/annakudravceva/Desktop/GEEKBRAINS/Just_Code/obj/Debug/net6.0/refint/Just_Code.dll
+/Users/annakudravceva/Desktop/GEEKBRAINS/Just_Code/obj/Debug/net6.0/Just_Code.pdb
+/Users/annakudravceva/Desktop/GEEKBRAINS/Just_Code/obj/Debug/net6.0/Just_Code.genruntimeconfig.cache
+/Users/annakudravceva/Desktop/GEEKBRAINS/Just_Code/obj/Debug/net6.0/ref/Just_Code.dll
